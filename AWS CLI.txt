@@ -60,7 +60,15 @@ TO OPEN THE VS CODE IN THE SPESIFIC LOCATION
 
 code .
 
+TO CHECK THE STATUS OF THE LOCATION
+===================================
 
+git status
+
+TO SEND THE UPDATES INTO THE STAGING AREA
+=========================================
+
+git add .
 
 
 
