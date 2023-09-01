@@ -123,9 +123,28 @@ jobs:
           aws s3 sync ./ s3://${{ secrets.AWS_S3_BUCKET }} --exclude ".git/*" --exclude ".github/*"
 
 
+CREATE ACTION SECRETS & VARIABLES
+=================================
 
-
-
+Goto Settings of your Repo in GitHub
+Expand the SECRETS & VARIABLES
+Go to Actions
+New repository secret
+Set Name : AWS_ACCESS_KEY_ID
+Set Secret : From .csv file
+Add secret
+New repository secret
+Set Name : AWS_SECRET_ACCESS_KEY
+Set Secret : From .csv file
+Add secret
+New repository secret
+Set Name : AWS_SECRET_ACCESS_KEY
+Set Secret : From .csv file
+Add secret
+New repository secret
+Set Name : AWS_S3_BUCKET
+Set Secret : copy paste your bucket name
+Add secret
 
 
 
