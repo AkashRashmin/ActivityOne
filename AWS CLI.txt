@@ -1,0 +1,83 @@
+TO GO INTO A DIRECTORY USING BASH CLI
+=====================================
+
+cd FilePath
+
+TO REMOVE USERNAME AND EMAILS CONNECTED TO GOT BASH
+===================================================
+
+git config --global --unset-all user.name
+git config --global --unset-all user.email
+
+TO CONNECT GITHUB ACCOUNT TO BASH
+=================================
+
+git config --global user.name "AkashRashmin"
+git config --global user.email "akshrashminpro@gmail.com"
+
+TO CHECK WHETHER THE ACCOUNT WAS LINKED 
+=======================================
+
+git config --global --list
+
+
+GIT GLOABAL CONFIGURATION SAVE PATH
+===================================
+
+This PC > Local Disk(C:) > Users > Akash > .gitconfig
+
+
+TO INITIATE A FOLDER / SUBFOLDER
+================================
+
+git init NewFolderName
+
+or
+
+git init
+
+TO SHOW FILES & FOLDERS IN THE FOLDER
+=====================================
+
+ls
+ls -a
+
+
+TO MAKE THE GIT MASTER BRANCH TO NAME AS MAIN
+=============================================
+
+git branch -m main
+
+
+TO VIEW ALL THE BRANCHES
+========================
+
+git branch
+
+
+TO OPEN THE VS CODE IN THE SPESIFIC LOCATION
+============================================
+
+code .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
