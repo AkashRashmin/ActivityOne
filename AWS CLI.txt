@@ -123,8 +123,8 @@ jobs:
           aws s3 sync ./ s3://${{ secrets.AWS_S3_BUCKET }} --exclude ".git/*" --exclude ".github/*"
 
 
-CREATE ACTION SECRETS & VARIABLES
-=================================
+CREATE GITHUB ACTION SECRETS & VARIABLES
+========================================
 
 Goto Settings of your Repo in GitHub
 Expand the SECRETS & VARIABLES

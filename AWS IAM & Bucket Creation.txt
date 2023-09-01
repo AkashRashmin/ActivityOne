@@ -60,6 +60,18 @@ Paste
 
 Edit "arn:aws:s3:::Bucket-Name/*" and Rename it with copies Bucket ARN from above
 Save Changes
+Goto bucket Properties
+Scroll to bottom
+Edit Static website hosting
+Choose Enable
+Type Index document
+index.html
+Save Changes
+Click on the http://activityone-staticwebsite.s3-website-ap-southeast-1.amazonaws.com
+
+Now Make Changes to your index.html file and push it to the GitHub
+View the hosted url for the changes have occored or not
+Remember to wait until Git Action Finish.
 
 
 
